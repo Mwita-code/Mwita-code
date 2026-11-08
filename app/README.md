@@ -36,22 +36,16 @@ picture buttons. Only the amount must be typed. All questions are short and the 
 - **Restore** the file on a new phone with Settings → *Rudisha nakala*.
 - Clearing browser data or uninstalling the browser deletes the records, which is why backups matter.
 
-## Put it online (free)
+## Live link
 
-The app is plain static files (`index.html`, `app.js`, `styles.css`, `sw.js`, `manifest.json`, `icons/`), so any static host works.
-It must be served over **https** for install and offline mode.
+**https://mwita-code.github.io/Mwita-code/** (free hosting on GitHub Pages)
 
-**Option A: GitHub Pages (already set up in this repo)**
-1. Merge this branch into `main`.
-2. On GitHub: repo **Settings → Pages → Source: GitHub Actions**.
-3. The workflow `.github/workflows/deploy-app.yml` publishes the app at `https://<your-username>.github.io/<repo>/`.
-   (GitHub Pages on a *private* repository needs a paid GitHub plan. Make the repo public, or use option B.)
+The site is served from the `gh-pages` branch, which holds only the published app files.
+**To publish an update:** bump the version numbers (see below), then copy `index.html`, `app.js`, `styles.css`, `sw.js`,
+`manifest.json` and `icons/` from this folder to the `gh-pages` branch and push. The site updates within about a minute.
 
-**Option B: Netlify Drop (no account setup, about 1 minute)**
-Go to app.netlify.com/drop and drag the `app` folder onto the page. You get an https link right away.
-You can rename it, e.g. `biashara-records.netlify.app`.
-
-Later you can buy a domain (e.g. `biashararecords.co.ke`) and point it at either host.
+Other free options: Netlify Drop (app.netlify.com/drop, drag the `app` folder). Later you can buy a domain
+(e.g. `biashararecords.co.ke`) and point it at GitHub Pages in repo **Settings → Pages → Custom domain**.
 
 ## For developers
 
