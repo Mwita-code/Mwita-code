@@ -16,6 +16,18 @@ to M-Pesa records and KRA's eTIMS invoicing. You make it once and sell it many t
 | `marketing/whatsapp-and-outreach-scripts.md` | WhatsApp status, broadcast, group and DM scripts, plus customer replies | ✅ Ready |
 | `scripts/build_workbook.py`, `scripts/build_guide_pdf.js` | Rebuild the product files after edits | Tools |
 
+## 1b. The app (new)
+
+`/app` in this repo is a full working **Biashara Records app**: big picture buttons, Kiswahili/English, works offline on
+any smartphone or computer, and data stays on the phone. See `app/README.md` to put it online for free.
+
+How it fits the business:
+- **Free app = audience builder.** Share the link in every TikTok, WhatsApp and Facebook post ("Free app for your
+  business records"). Free tools spread much faster than paid ones.
+- **Paid offers on top:** the Setup Service (KSh 2,500: install it on their phone, enter their details, train them),
+  the Full Kit (guides + Excel tracker for those who prefer Excel), and later group training for chamas and SACCOs.
+- Each app screen is also ready-made video content: screen-record it for the 30-day plan.
+
 ## 2. The problem we solve
 
 - Kenyan small businesses sell across M-Pesa, cash, WhatsApp and credit, but keep records in notebooks or not at all.
