@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="sw">
+<head>
+<meta charset="utf-8">
+<title>Biashara Records Kit — Mwongozo wa M-Pesa na eTIMS</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm; }
+  :root { --g:#1B5E20; --gl:#E8F5E9; --a:#FFF8E1; --r:#FFEBEE; --ink:#212121; --mute:#616161; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", Roboto, Arial, sans-serif; color: var(--ink); font-size: 11pt; line-height: 1.5; margin: 0; }
+  h1 { color: var(--g); font-size: 26pt; margin: 0 0 6px; line-height: 1.15; }
+  h2 { color: var(--g); font-size: 16pt; border-bottom: 3px solid var(--g); padding-bottom: 4px; margin: 0 0 12px; }
+  h3 { font-size: 12pt; margin: 16px 0 6px; }
+  .page { page-break-after: always; }
+  .page:last-child { page-break-after: auto; }
+  .cover { display: flex; flex-direction: column; justify-content: center; min-height: 250mm; }
+  .cover .tag { background: var(--g); color: #fff; display: inline-block; padding: 4px 12px; border-radius: 4px; font-weight: 600; width: fit-content; }
+  .cover p.sub { font-size: 14pt; color: var(--mute); }
+  .box { border-radius: 6px; padding: 10px 14px; margin: 10px 0; }
+  .tip { background: var(--gl); border-left: 5px solid var(--g); }
+  .warn { background: var(--r); border-left: 5px solid #C62828; }
+  .note { background: var(--a); border-left: 5px solid #F9A825; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0; font-size: 10pt; }
+  th { background: var(--g); color: #fff; text-align: left; padding: 6px 8px; }
+  td { border: 1px solid #ccc; padding: 6px 8px; vertical-align: top; }
+  tr:nth-child(even) td { background: #FAFAFA; }
+  ol li, ul li { margin-bottom: 4px; }
+  .check li { list-style: none; margin-left: -18px; }
+  .check li::before { content: "☐  "; font-size: 13pt; }
+  .sw { color: var(--g); font-style: italic; }
+  .small { font-size: 9pt; color: var(--mute); }
+  .toc li { margin-bottom: 6px; }
+</style>
+</head>
+<body>
+
+<section class="page cover">
+  <span class="tag">KIFURUSHI CHA KUANZA · TOLEO LA 2026</span>
+  <h1>Biashara Records Kit<br>Mwongozo wa M-Pesa na eTIMS</h1>
+  <p class="sub">Weka rekodi rahisi, uwe tayari kwa KRA, na ujue faida yako halisi. Dakika 10 tu kwa siku.</p>
+  <p class="sub sw">Simple business records: 10 minutes a day.</p>
+  <div class="box note small" style="margin-top:40px">
+    <b>Muhimu:</b> Mwongozo huu ni elimu ya jumla kwa wafanyabiashara wadogo. Si ushauri wa kodi wala wa kisheria.
+    Sheria za kodi Kenya hubadilika mara kwa mara. Kila wakati thibitisha sheria, viwango na tarehe za mwisho za sasa kwenye
+    <b>kra.go.ke</b>, katika ofisi ya KRA au Huduma Centre, au kwa mtaalamu wa kodi aliyehitimu.
+    Hatuhusiani na wala hatujaidhinishwa na Mamlaka ya Ushuru Kenya (KRA) au Safaricom PLC. M-Pesa ni alama ya biashara ya Safaricom PLC.
+  </div>
+</section>
+
+<section class="page">
+  <h2>Yaliyomo</h2>
+  <ol class="toc">
+    <li><b>Kwa nini rekodi ni muhimu sasa</b>: kilichobadilika KRA mwaka 2026</li>
+    <li><b>eTIMS kwa lugha rahisi</b>: ni nini na inamhusu nani</li>
+    <li><b>Kujiunga na eTIMS</b>: njia tatu za bure</li>
+    <li><b>Kutoa invoice ya eTIMS</b>: hatua kwa hatua</li>
+    <li><b>Kupata invoice za eTIMS kutoka kwa wasambazaji</b>, pamoja na maneno ya kusema</li>
+    <li><b>Kodi ipi inakuhusu?</b> Ramani rahisi</li>
+    <li><b>Kupanga M-Pesa ya biashara yako</b></li>
+    <li><b>Ratiba ya dakika 10 kila siku</b>, ukitumia tracker yako</li>
+    <li><b>Orodha za ukaguzi za kila wiki na mwisho wa mwezi</b></li>
+    <li><b>Makosa 10 ya kawaida</b> na jinsi ya kuyaepuka</li>
+    <li><b>Orodha ya maneno</b>: Kiswahili / Kiingereza</li>
+  </ol>
+  <div class="box tip">
+    <b>Kifurushi chako kina sehemu mbili:</b><br>
+    1. <b>Mwongozo huu</b>: usome mara moja, kisha weka orodha za ukaguzi karibu.<br>
+    2. <b>Biashara-Records-Kit-Tracker.xlsx</b>: kitabu chako cha rekodi za kila siku. Kinafanya kazi kwenye Excel, au kwenye
+    Google Sheets kwa simu yako (sheets.google.com → File → Import).
+  </div>
+</section>
+
+<section class="page">
+  <h2>1. Kwa nini rekodi ni muhimu sasa</h2>
+  <p>Wafanyabiashara wengi wadogo Kenya bado huweka rekodi kwenye daftari, au hawaweki kabisa. Pesa huingia kupitia M-Pesa,
+  pesa taslimu, oda za WhatsApp na mikopo kwa wateja wa kawaida. Mwisho wa mwezi, hakuna anayejua faida halisi.</p>
+  <p>Kuanzia <b>1 Januari 2026</b>, KRA imesema itakagua mapato na matumizi ambayo watu hutangaza kwenye ritani zao za kodi
+  dhidi ya data za kielektroniki, zikiwemo <b>invoice za eTIMS</b>, rekodi za kodi ya zuio (withholding tax) na rekodi za forodha.
+  Kwa vitendo, hii inamaanisha:</p>
+  <ul>
+    <li><b>Gharama ya biashara isiyo na invoice halali ya eTIMS huenda isikubaliwe</b> wakati KRA inapopiga hesabu ya kodi yako ya mapato.
+      Gharama ikikataliwa, faida inayotozwa kodi huongezeka.</li>
+    <li><b>Mauzo</b> yako yanaweza kulinganishwa na data nyingine, kama vile manunuzi ambayo wateja wako wanadai walifanya kwako.</li>
+    <li>Rekodi nzuri zinakulinda KRA ikiuliza maswali. Pia zinakuonyesha bidhaa zipi zinaleta faida kweli.</li>
+  </ul>
+  <div class="box warn"><b>Tabia muhimu zaidi:</b> kwa kila manunuzi ya biashara, omba <b>invoice ya eTIMS yenye KRA PIN yako</b>.
+  Tracker inageuza gharama kuwa nyekundu kama huna invoice hiyo.</div>
+  <h3>Rekodi pia zinakusaidia kukua</h3>
+  <ul>
+    <li>Jua faida yako halisi, si tu pesa iliyoko kwenye M-Pesa yako.</li>
+    <li>Ona wateja wanaokudai, na uwafuatilie.</li>
+    <li>Onyesha rekodi safi unapoomba mkopo, zabuni au mkopo wa bidhaa kutoka kwa msambazaji.</li>
+  </ul>
+</section>
+
+<section class="page">
+  <h2>2. eTIMS kwa lugha rahisi</h2>
+  <p><b>eTIMS</b> (electronic Tax Invoice Management System) ni mfumo wa KRA wa kutengeneza invoice za kodi kielektroniki.
+  Kila invoice ya eTIMS inarekodiwa na KRA, kwa hivyo wewe na mteja wako mna ushahidi wa muamala.</p>
+  <table>
+    <tr><th>Swali</th><th>Jibu rahisi</th></tr>
+    <tr><td>Inamhusu nani?</td><td>KRA inasema eTIMS inawahusu watu wanaofanya biashara, wawe wamesajiliwa kwa VAT au la.
+      Kuna toleo rahisi zaidi, <b>eTIMS Lite</b>, lililotengenezwa kwa biashara ndogo na ndogo sana ambazo <b>hazijasajiliwa</b> kwa VAT.</td></tr>
+    <tr><td>Inagharimu pesa?</td><td>Njia za eTIMS za KRA yenyewe (tovuti ya eCitizen, USSD *222# na app ya eTIMS) ni bure kutumia.
+      Programu za kulipia zinazounganishwa na eTIMS ni hiari.</td></tr>
+    <tr><td>Natoa invoice kwa kila mauzo?</td><td>Invoice za eTIMS ni za mauzo ya biashara yako. Wateja walio wafanyabiashara
+      watazihitaji, kwa sababu wanazitumia kudai gharama zao. Thibitisha na KRA kama lazima utoe invoice kwa kila mauzo madogo ya pesa taslimu.</td></tr>
+    <tr><td>Je, kama msambazaji wangu ni mdogo sana?</td><td>Sheria za KRA zinamruhusu mnunuzi kutoa invoice ya kodi kwa niaba ya baadhi ya wasambazaji wadogo
+      ("reverse invoice"). Uliza KRA au mtaalamu wa kodi kama hii inakuhusu.</td></tr>
+  </table>
+  <div class="box note small">Vyanzo tofauti vinaeleza sheria na viwango kwa njia tofauti. Ukiwa na shaka, ukurasa rasmi wa
+  eTIMS wa KRA (kra.go.ke → eTIMS) ndio wenye neno la mwisho.</div>
+</section>
+
+<section class="page">
+  <h2>3. Kujiunga na eTIMS: njia tatu za bure</h2>
+  <p>Kabla ya kuanza, kuwa na <b>KRA PIN</b> yako, <b>nenosiri la iTax</b> (au akaunti ya eCitizen) na
+  <b>namba ya simu iliyounganishwa na KRA PIN yako</b>.</p>
+  <table>
+    <tr><th>Njia</th><th>Inafaa kwa</th><th>Jinsi ya kuanza</th></tr>
+    <tr><td><b>eTIMS Lite: tovuti</b> (kupitia eCitizen)</td><td>Wanaotumia kivinjari cha simu janja au kompyuta</td>
+      <td>Nenda kwenye ukurasa wa eTIMS wa KRA kwenye kra.go.ke, chagua eTIMS Lite / eCitizen, ingia na ufuate hatua za kujisajili.</td></tr>
+    <tr><td><b>eTIMS Lite: USSD *222#</b></td><td>Simu yoyote, bila intaneti. Kwa watu binafsi na wamiliki pekee wa biashara.</td>
+      <td>Piga <b>*222#</b> kutoka laini iliyounganishwa na KRA PIN yako na ufuate maelekezo ya menyu kujisajili na kutengeneza invoice.</td></tr>
+    <tr><td><b>App ya eTIMS</b> (kwa biashara zisizo za VAT)</td><td>Wenye simu janja wanaotoa invoice nyingi</td>
+      <td>Pakua app rasmi ya KRA ya eTIMS kwa walipa kodi wasio wa VAT kutoka Play Store na uingie kwa maelezo yako ya KRA.</td></tr>
+  </table>
+  <div class="box tip"><b>Kidokezo:</b> Menyu za *222# na app zinaweza kubadilika, kwa hivyo soma kila skrini kwa makini badala ya kukariri namba.
+  Ukikwama, tembelea Huduma Centre au dawati la KRA, au piga simu kwa kituo cha mawasiliano cha KRA kilichoorodheshwa kwenye kra.go.ke.</div>
+  <div class="box warn"><b>Jihadhari na matapeli.</b> KRA haiombi nenosiri au PIN yako kwa SMS au WhatsApp.
+  Tumia njia na app rasmi za KRA pekee.</div>
+  <h3>Baada ya kujisajili</h3>
+  <ol>
+    <li>Ongeza <b>bidhaa au huduma</b> unazouza (jina, bei) ili kutoa invoice kuwe haraka.</li>
+    <li>Tengeneza <b>invoice moja ya majaribio</b> kwa mauzo madogo ili ujifunze hatua.</li>
+    <li>Andika namba ya invoice ya eTIMS kwenye safu L ya karatasi ya <b>Sales</b> kwenye tracker yako.</li>
+  </ol>
+</section>
+
+<section class="page">
+  <h2>4. Kutoa invoice ya eTIMS: hatua kwa hatua</h2>
+  <ol>
+    <li><b>Pata maelezo ya mteja.</b> Kwa mteja aliye mfanyabiashara, omba <b>KRA PIN</b> na jina lake.
+      <span class="sw">"Naomba KRA PIN yako ili nikutumie invoice ya eTIMS."</span></li>
+    <li><b>Fungua eTIMS</b> (tovuti, *222# au app) na uchague kutengeneza invoice ya mauzo.</li>
+    <li><b>Weka PIN ya mteja</b>, bidhaa, idadi na bei.</li>
+    <li><b>Hakiki, kisha thibitisha.</b> eTIMS inatengeneza invoice na kuipa namba.</li>
+    <li><b>Mtumie mteja</b>: kwa SMS, WhatsApp, barua pepe au kuchapisha, kulingana na njia uliyotumia.</li>
+    <li><b>Irekodi</b> kwenye tracker yako: karatasi ya Sales → "eTIMS invoice issued?" = Yes, kisha andika namba ya invoice.</li>
+  </ol>
+  <h3>Mazoea mazuri</h3>
+  <ul>
+    <li>Tengeneza invoice <b>wakati wa mauzo</b>, si mwisho wa mwezi.</li>
+    <li>Hakikisha <b>kiasi kinalingana</b> na kile mteja alicholipa kwa M-Pesa.</li>
+    <li>Ukikosea, tumia chaguo la eTIMS la kurekebisha (credit note). Usipuuze kosa.</li>
+  </ul>
+</section>
+
+<section class="page">
+  <h2>5. Kupata invoice za eTIMS kutoka kwa wasambazaji</h2>
+  <p>Hii ndiyo tabia inayokulinda moja kwa moja. Kila manunuzi ya biashara bila invoice ya eTIMS
+  yako hatarini kukataliwa kama gharama.</p>
+  <h3>Cha kusema: nakili na utume</h3>
+  <table>
+    <tr><th>Kiswahili</th><th>Kiingereza</th></tr>
+    <tr><td>"Habari, tafadhali nitumie invoice ya eTIMS ya mzigo wa leo. KRA PIN yangu ni ______. Asante."</td>
+        <td class="sw">"Hello, please send me an eTIMS invoice for today's purchase. My KRA PIN is ______. Thank you."</td></tr>
+    <tr><td>"Nitalipa nikipata invoice ya eTIMS. Unaweza kuitengeneza sasa?"</td>
+        <td class="sw">"I can only pay against an eTIMS invoice. Can you generate it now?"</td></tr>
+    <tr><td>"Unaweza kuitengeneza bure kupitia *222# au app ya KRA eTIMS."</td>
+        <td class="sw">"You can do it for free on *222# or the KRA eTIMS app."</td></tr>
+  </table>
+  <h3>Ifanye iwe kawaida</h3>
+  <ul>
+    <li>Hifadhi KRA PIN yako kama ujumbe kwenye simu ili uweze kuibandika haraka.</li>
+    <li>Pendelea wasambazaji wanaotoa invoice za eTIMS bila kuombwa. Polepole, hamishia manunuzi yako ya kawaida kwao.</li>
+    <li>Kwenye tracker, karatasi ya <b>Expenses</b> inageuza mstari kuwa mwekundu wakati "eTIMS invoice received?" si "Yes". Safisha mistari myekundu kila wiki.</li>
+    <li>Muulize mtaalamu wa kodi jinsi ya kushughulikia gharama ambazo huenda hazihitaji invoice ya eTIMS (kwa mfano baadhi ya
+      mishahara, ada za benki au bidhaa zisizotozwa kodi). Ziwekee "Not needed" tu baada ya kuwa na uhakika.</li>
+  </ul>
+</section>
+
+<section class="page">
+  <h2>6. Kodi ipi inakuhusu? Ramani rahisi</h2>
+  <p>Ramani hii inakupa maswali sahihi ya kuuliza. <b>Si</b> uamuzi kuhusu hali yako.</p>
+  <table>
+    <tr><th>Hali yako (kama inavyoripotiwa kwa kawaida)</th><th>Kodi ya kuuliza KRA</th></tr>
+    <tr><td>Biashara ndogo ya mkazi, mauzo ya mwaka takriban kati ya <b>KSh milioni 1 na milioni 25</b></td>
+        <td><b>Turnover Tax (TOT)</b>: asilimia ya mauzo yote. Imeripotiwa kuwa <b>1.5%</b>; thibitisha kiwango cha sasa na mara ngapi unapaswa kulipa.</td></tr>
+    <tr><td>Mauzo yanayotozwa kodi ya <b>KSh milioni 5 au zaidi</b> katika miezi 12 yoyote</td>
+        <td><b>Usajili wa VAT</b> ni lazima. Biashara iliyosajiliwa kwa VAT haiwezi kutumia Turnover Tax.</td></tr>
+    <tr><td>Mauzo ya mwaka chini ya takriban KSh milioni 1, au umechagua kutotumia TOT</td>
+        <td><b>Kodi ya mapato</b> (income tax) kwa faida yako, inayotangazwa kwenye ritani ya mwaka. Hapa, gharama zenye invoice za eTIMS ni muhimu zaidi.</td></tr>
+  </table>
+  <div class="box note">Kwenye tracker yako, jaza <b>Settings → Tax regime</b> na <b>Estimated tax rate</b>. Kisha
+  <b>Monthly Summary</b> itaonyesha makadirio ili <b>uweke pesa akiba mapema</b>. Ni makadirio tu:
+  mifumo ya KRA (iTax / eCitizen) ndiyo inayopiga hesabu ya kiasi unachodaiwa kweli.</div>
+  <h3>Kanuni rahisi ya pesa</h3>
+  <p>Kila pesa inapoingia, weka asilimia ndogo kando kwenye akaunti tofauti ya akiba ya M-Pesa au benki kwa ajili ya kodi.
+  Hivyo siku ya kulipa kodi haitakushtua.</p>
+</section>
+
+<section class="page">
+  <h2>7. Kupanga M-Pesa ya biashara yako</h2>
+  <table>
+    <tr><th>Chaguo</th><th>Inafaa kwa</th><th>Maelezo</th></tr>
+    <tr><td><b>Pochi la Biashara</b></td><td>Wauzaji wadogo sana na wachuuzi</td><td>Inatumia laini yako binafsi lakini inaweka pesa za biashara kwenye pochi tofauti.</td></tr>
+    <tr><td><b>Buy Goods Till</b></td><td>Maduka, vibanda, saluni, wauzaji wa vyakula</td><td>Wateja hulipa kwa namba ya till. Ni rahisi kuona mauzo ya kila siku.</td></tr>
+    <tr><td><b>Paybill</b></td><td>Biashara zinazohitaji namba ya akaunti kwa kila mteja (shule, wenye nyumba, wasambazaji)</td><td>Kila malipo yanakuja na kumbukumbu ya akaunti, inayokusaidia kujua nani amelipa.</td></tr>
+  </table>
+  <p class="small">Angalia ada na masharti ya sasa na Safaricom kabla ya kuchagua.</p>
+  <h3>Kanuni za dhahabu</h3>
+  <ul>
+    <li><b>Tenganisha pesa za biashara na pesa zako binafsi.</b> Miamala binafsi ikichanganyika, rekodi zako zinakuwa hazina maana.</li>
+    <li>Jilipe kiasi maalum na ukirekodi kama <b>Owner Drawings</b> kwenye tracker. Karatasi haihesabu drawings kama gharama za biashara.</li>
+    <li>Kila wakati rekodi <b>namba ya muamala wa M-Pesa</b> (k.m. SKL4ABC123). Ndio ushahidi wako wa malipo.</li>
+    <li>Pakua <b>taarifa ya M-Pesa</b> (statement) kila wiki (kwenye app ya M-Pesa, au kwa kuiomba kupitia menyu ya M-Pesa au app ya Safaricom)
+      na uibandike kwenye karatasi ya <b>M-Pesa Check</b> ya tracker.</li>
+  </ul>
+</section>
+
+<section class="page">
+  <h2>8. Ratiba ya dakika 10 kila siku</h2>
+  <p>Fanya hivi wakati wa kufunga, kila siku. <span class="sw">Every day, before closing.</span></p>
+  <table>
+    <tr><th>Dakika</th><th>Fanya hivi</th><th>Karatasi ya tracker</th></tr>
+    <tr><td>0–4</td><td>Rekodi kila mauzo: bidhaa, kiasi, njia ya malipo, namba ya M-Pesa</td><td>Sales</td></tr>
+    <tr><td>4–7</td><td>Rekodi kila malipo uliyofanya, na kama ulipata invoice ya eTIMS</td><td>Expenses</td></tr>
+    <tr><td>7–8</td><td>Rekodi mikopo uliyotoa au pesa ulizopokea kutoka kwa wanaokudai</td><td>Debtors</td></tr>
+    <tr><td>8–9</td><td>Hesabu pesa taslimu na ulinganishe na jumla ya mauzo ya pesa taslimu</td><td>Sales</td></tr>
+    <tr><td>9–10</td><td>Tuma ombi moja la eTIMS kwa msambazaji yeyote aliye bado mwekundu</td><td>Expenses</td></tr>
+  </table>
+  <div class="box tip"><b>Kwenye simu yako:</b> ingiza tracker kwenye Google Sheets na uiweke kwenye skrini ya mwanzo.
+  Kisha kurekodi mauzo kunachukua sekunde 20.</div>
+  <h3>Orodha ya kila siku</h3>
+  <ul class="check">
+    <li>Mauzo yote yamerekodiwa pamoja na njia ya malipo</li>
+    <li>Namba zote za M-Pesa zimeandikwa</li>
+    <li>Gharama zote zimerekodiwa pamoja na hali ya eTIMS</li>
+    <li>Mauzo ya mkopo yameongezwa kwenye Debtors</li>
+    <li>Pesa taslimu imehesabiwa na inalingana</li>
+  </ul>
+</section>
+
+<section class="page">
+  <h2>9. Orodha za kila wiki na mwisho wa mwezi</h2>
+  <h3>Kila wiki (dakika 15)</h3>
+  <ul class="check">
+    <li>Pakua taarifa ya M-Pesa na uibandike kwenye <b>M-Pesa Check</b>. Rekebisha kila mstari wa machungwa wenye "MISSING".</li>
+    <li>Pitia mistari myekundu kwenye <b>Expenses</b> na ufuatilie wasambazaji kwa ajili ya invoice za eTIMS.</li>
+    <li>Tuma vikumbusho vya heshima kwa wadaiwa walio <b>OVERDUE</b> na uandike tarehe kwenye "Last reminder sent".</li>
+    <li>Hifadhi nakala ya faili (pakua nakala au iweke kwenye Google Drive).</li>
+  </ul>
+  <h3>Kila mwisho wa mwezi (dakika 30)</h3>
+  <ul class="check">
+    <li>Fungua <b>Monthly Summary</b> na uangalie mauzo, gharama na faida.</li>
+    <li>Angalia <b>% of expenses covered by eTIMS</b>. Lenga kukaribia 100% kadri iwezekanavyo.</li>
+    <li>Hamishia kiasi cha kodi kilichokadiriwa kwenye akiba yako ya kodi.</li>
+    <li>Wasilisha na ulipe ritani zozote zinazodaiwa kwenye iTax / eCitizen kabla ya tarehe ya mwisho ya KRA. Thibitisha tarehe kwenye kra.go.ke.</li>
+    <li>Andika bidhaa zako zinazouzwa zaidi na gharama unazoweza kupunguza mwezi ujao.</li>
+  </ul>
+  <h3>Kikumbusho kwa mdaiwa (nakili na utume)</h3>
+  <p class="sw">"Habari [jina], natumai uko salama. Nakukumbusha kuhusu salio la KSh [kiasi] la [tarehe].
+  Unaweza kulipa kupitia Till/Paybill [namba]. Asante sana!"</p>
+  <p>"Hi [name], hope you're well. A friendly reminder about the balance of KSh [amount] from [date].
+  You can pay via Till/Paybill [number]. Thank you!"</p>
+</section>
+
+<section class="page">
+  <h2>10. Makosa kumi ya kawaida</h2>
+  <ol>
+    <li><b>Kuchanganya M-Pesa binafsi na ya biashara.</b> Tumia Till, Paybill au Pochi kwa biashara.</li>
+    <li><b>Kutoomba wasambazaji invoice za eTIMS.</b> Gharama zinaweza kukataliwa na ukalipa kodi zaidi.</li>
+    <li><b>Kurekodi mauzo ya M-Pesa pekee.</b> Mauzo ya pesa taslimu pia yanahesabika.</li>
+    <li><b>Kusahau mauzo ya mkopo.</b> Kisichoandikwa mara nyingi hakilipwi.</li>
+    <li><b>Kusubiri mwisho wa mwezi kurekodi.</b> Utasahau mambo. Rekodi kila siku.</li>
+    <li><b>Kuhesabu pesa zote zilizoingia kama faida.</b> Faida = mauzo − gharama. Angalia Monthly Summary.</li>
+    <li><b>Kutumia pesa ya kodi.</b> Iweke kando unapopata.</li>
+    <li><b>Kumpa mtu nenosiri lako la KRA.</b> Usimtumie mtu yeyote kwa SMS au WhatsApp.</li>
+    <li><b>Kutegemea "vidokezo vya kodi" vya mitandao ya kijamii.</b> Thibitisha na KRA au mtaalamu.</li>
+    <li><b>Kutokuwa na nakala ya akiba.</b> Simu hupotea. Weka tracker kwenye Google Drive.</li>
+  </ol>
+</section>
+
+<section class="page">
+  <h2>11. Orodha ya maneno: Kiswahili / Kiingereza</h2>
+  <table>
+    <tr><th>Kiswahili</th><th>Kiingereza</th><th>Maana</th></tr>
+    <tr><td class="sw">Mauzo</td><td>Sales</td><td>Pesa kutokana na kuuza bidhaa au huduma</td></tr>
+    <tr><td class="sw">Matumizi / Gharama</td><td>Expenses / costs</td><td>Pesa inayotumika kuendesha biashara</td></tr>
+    <tr><td class="sw">Faida</td><td>Profit</td><td>Mauzo ukitoa gharama</td></tr>
+    <tr><td class="sw">Hasara</td><td>Loss</td><td>Gharama zinapozidi mauzo</td></tr>
+    <tr><td class="sw">Mzigo / Bidhaa</td><td>Stock</td><td>Bidhaa unazonunua ili kuuza</td></tr>
+    <tr><td class="sw">Mdaiwa</td><td>Debtor</td><td>Mteja anayekudai pesa</td></tr>
+    <tr><td class="sw">Mkopo / Kukopesha</td><td>Credit sale</td><td>Kuuza sasa, kulipwa baadaye</td></tr>
+    <tr><td class="sw">Ankara / Invoice</td><td>Invoice</td><td>Bili inayoonyesha kilichouzwa na bei</td></tr>
+    <tr><td class="sw">Risiti</td><td>Receipt</td><td>Ushahidi kwamba malipo yamepokelewa</td></tr>
+    <tr><td class="sw">Kodi / Ushuru</td><td>Tax</td><td>Pesa inayolipwa kwa serikali</td></tr>
+    <tr><td class="sw">Utunzaji wa rekodi</td><td>Record keeping</td><td>Kuandika kila muamala</td></tr>
+  </table>
+  <h3>Maneno ya tracker (yako kwa Kiingereza kwenye faili)</h3>
+  <table>
+    <tr><th>Kwenye tracker</th><th>Maana yake</th></tr>
+    <tr><td>Sales / Expenses / Debtors</td><td>Mauzo / Matumizi / Wadaiwa</td></tr>
+    <tr><td>Payment method</td><td>Njia ya malipo</td></tr>
+    <tr><td>eTIMS invoice issued? / received?</td><td>Invoice ya eTIMS imetolewa? / imepokelewa?</td></tr>
+    <tr><td>CHECK: get eTIMS invoice</td><td>ANGALIA: pata invoice ya eTIMS</td></tr>
+    <tr><td>OVERDUE</td><td>Muda wa kulipa umepita</td></tr>
+    <tr><td>MISSING: add to Sales or Expenses</td><td>HAIPO: iongeze kwenye Sales au Expenses</td></tr>
+  </table>
+  <div class="box tip" style="margin-top:16px"><b>Unahitaji msaada wa kuanza?</b> Wasiliana na muuzaji wa kifurushi hiki kwa
+  huduma ya kukuwekea kila kitu: tunajaza Settings zako, tunaweka bidhaa zako na kukuonyesha ratiba ya kila siku.</div>
+  <p class="small" style="margin-top:16px">© 2026 Biashara Records Kit. Kwa matumizi ya biashara yako tu. Tafadhali usiuze tena wala kushiriki faili hizi.
+  Taarifa za jumla tu, si ushauri wa kodi wala wa kisheria. Hatuhusiani na KRA wala Safaricom PLC.</p>
+</section>
+
+</body>
+</html>

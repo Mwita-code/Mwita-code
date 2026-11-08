@@ -9,7 +9,8 @@ to M-Pesa records and KRA's eTIMS invoicing. You make it once and sell it many t
 |---|---|---|
 | `product/Biashara-Records-Kit-Tracker.xlsx` | The tracker the customer buys: Sales, Expenses (eTIMS risk flags), Debtors, M-Pesa statement check, Monthly Summary, printable Invoice | ✅ Ready to sell |
 | `product/Biashara-Records-Kit-Guide.pdf` | 13-page guide in English, with Swahili scripts and a word list | ✅ Ready to sell |
-| `product/guide.html` | Source for the PDF (edit this, then rebuild) | Source |
+| `product/Biashara-Records-Kit-Mwongozo-Kiswahili.pdf` | The same guide in Kiswahili (13 pages), with a key that explains the tracker's English labels | ✅ Ready to sell |
+| `product/guide.html`, `product/guide_sw.html` | Sources for the English and Kiswahili PDFs (edit, then rebuild) | Source |
 | `marketing/selar-listing-and-sales-page.md` | Product titles, descriptions and pricing to paste into Selar | ✅ Ready |
 | `marketing/30-day-content-plan.md` | 30 days of TikTok/Reels scripts and Facebook posts | ✅ Ready |
 | `marketing/whatsapp-and-outreach-scripts.md` | WhatsApp status, broadcast, group and DM scripts, plus customer replies | ✅ Ready |
@@ -31,7 +32,7 @@ boda/transport operators, small wholesalers, and new freelancers. Mostly aged 22
 | Package | Includes | Price | Who it's for |
 |---|---|---|---|
 | **Basic** | Tracker (xlsx) | **KSh 499** | Tight budgets; entry point |
-| **Full Kit** ⭐ | Tracker + Guide PDF | **KSh 999** | Main product. Push this one. |
+| **Full Kit** ⭐ | Tracker + Guide PDF (English **and** Kiswahili) | **KSh 999** | Main product. Push this one. |
 | **Setup Service** | Full Kit + 30-min WhatsApp video call: fill in their Settings, load items, show the routine | **KSh 2,500** | Owners who "don't do computers" |
 | **Later: Monthly check-in** | Review their Monthly Summary each month | KSh 1,000/month | Repeat income once you have customers |
 

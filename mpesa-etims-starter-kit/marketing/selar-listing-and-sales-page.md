@@ -10,7 +10,7 @@ Copy and paste these into Selar (Products → New product → Digital download).
 
 **Price:** KSh 999 (launch offer KSh 699 for the first 50 buyers)
 
-**Files to upload:** `Biashara-Records-Kit-Tracker.xlsx` + `Biashara-Records-Kit-Guide.pdf`
+**Files to upload:** `Biashara-Records-Kit-Tracker.xlsx` + `Biashara-Records-Kit-Guide.pdf` + `Biashara-Records-Kit-Mwongozo-Kiswahili.pdf`
 
 **Short description (1 line):**
 Know your real profit, track M-Pesa and cash sales, and stay ready for KRA eTIMS in just 10 minutes a day.
@@ -32,7 +32,7 @@ Know your real profit, track M-Pesa and cash sales, and stay ready for KRA eTIMS
 > - ✅ **M-Pesa statement check**: paste your statement and the sheet shows any payment you forgot to record.
 > - ✅ **Monthly summary**: sales, costs, **profit**, eTIMS coverage and an estimate of tax to set aside.
 > - ✅ **Printable invoice/receipt** with your business name and Till number.
-> - ✅ **13-page guide in simple English**: eTIMS explained, how to get on eTIMS Lite (eCitizen, *222#, app),
+> - ✅ **13-page guide in simple English AND full Kiswahili version (Mwongozo kwa Kiswahili)**: eTIMS explained, how to get on eTIMS Lite (eCitizen, *222#, app),
 >   how to ask suppliers for eTIMS invoices (scripts in **English and Kiswahili**), a 10-minute daily routine,
 >   and month-end checklists.
 >
