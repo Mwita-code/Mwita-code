@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#1B5E20">
+<meta name="theme-color" content="#0B7A4B">
 <meta name="description" content="Rekodi rahisi za biashara: mauzo, matumizi, madeni na eTIMS. Simple business records for Kenyan small businesses.">
 <title>Biashara Records</title>
 <link rel="manifest" href="manifest.json">
@@ -12,14 +12,19 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Biashara">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="topbar">
-  <button class="back" id="backBtn" type="button" aria-label="Back" hidden>←</button>
-  <span class="brand" id="brand">📒 Biashara Records</span>
+  <button class="back" id="backBtn" type="button" aria-label="Back" hidden><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg></button>
+  <img class="logo" src="icons/icon-192.png" alt="">
+  <span class="brand" id="brand">Biashara Records</span>
 </header>
 <main id="app" aria-live="polite"></main>
+<nav class="tabbar" id="tabbar" hidden></nav>
 <div class="toast" id="toast" role="status" hidden></div>
 <noscript><p style="padding:16px">Tafadhali washa JavaScript. / Please enable JavaScript.</p></noscript>
 <script src="app.js"></script>
