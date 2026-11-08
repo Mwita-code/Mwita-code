@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Biashara Records Kit — M-Pesa &amp; eTIMS Starter Guide</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm; }
+  :root { --g:#1B5E20; --gl:#E8F5E9; --a:#FFF8E1; --r:#FFEBEE; --ink:#212121; --mute:#616161; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", Roboto, Arial, sans-serif; color: var(--ink); font-size: 11pt; line-height: 1.5; margin: 0; }
+  h1 { color: var(--g); font-size: 26pt; margin: 0 0 6px; line-height: 1.15; }
+  h2 { color: var(--g); font-size: 16pt; border-bottom: 3px solid var(--g); padding-bottom: 4px; margin: 0 0 12px; }
+  h3 { font-size: 12pt; margin: 16px 0 6px; }
+  .page { page-break-after: always; }
+  .page:last-child { page-break-after: auto; }
+  .cover { display: flex; flex-direction: column; justify-content: center; min-height: 250mm; }
+  .cover .tag { background: var(--g); color: #fff; display: inline-block; padding: 4px 12px; border-radius: 4px; font-weight: 600; width: fit-content; }
+  .cover p.sub { font-size: 14pt; color: var(--mute); }
+  .box { border-radius: 6px; padding: 10px 14px; margin: 10px 0; }
+  .tip { background: var(--gl); border-left: 5px solid var(--g); }
+  .warn { background: var(--r); border-left: 5px solid #C62828; }
+  .note { background: var(--a); border-left: 5px solid #F9A825; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0; font-size: 10pt; }
+  th { background: var(--g); color: #fff; text-align: left; padding: 6px 8px; }
+  td { border: 1px solid #ccc; padding: 6px 8px; vertical-align: top; }
+  tr:nth-child(even) td { background: #FAFAFA; }
+  ol li, ul li { margin-bottom: 4px; }
+  .check li { list-style: none; margin-left: -18px; }
+  .check li::before { content: "☐  "; font-size: 13pt; }
+  .sw { color: var(--g); font-style: italic; }
+  .small { font-size: 9pt; color: var(--mute); }
+  .toc li { margin-bottom: 6px; }
+</style>
+</head>
+<body>
+
+<section class="page cover">
+  <span class="tag">STARTER KIT · 2026 EDITION</span>
+  <h1>Biashara Records Kit<br>M-Pesa &amp; eTIMS Starter Guide</h1>
+  <p class="sub">Keep simple records, stay ready for KRA, and know your real profit. 10 minutes a day.</p>
+  <p class="sub sw">Rekodi rahisi za biashara — dakika 10 kwa siku.</p>
+  <div class="box note small" style="margin-top:40px">
+    <b>Important:</b> This guide is general education for small business owners. It is not tax or legal advice.
+    Tax rules in Kenya change often: always confirm current rules, rates and deadlines on
+    <b>kra.go.ke</b>, at a KRA service centre (Huduma Centre) or with a qualified tax professional.
+    Not affiliated with or endorsed by Kenya Revenue Authority (KRA) or Safaricom PLC. M-Pesa is a trademark of Safaricom PLC.
+  </div>
+</section>
+
+<section class="page">
+  <h2>What's inside</h2>
+  <ol class="toc">
+    <li><b>Why records matter now</b>: what changed with KRA in 2026</li>
+    <li><b>eTIMS in plain language</b>: what it is and who it affects</li>
+    <li><b>Getting onto eTIMS</b>: the three free options</li>
+    <li><b>Issuing an eTIMS invoice</b>: step by step</li>
+    <li><b>Getting eTIMS invoices from your suppliers</b>, with scripts in English and Swahili</li>
+    <li><b>Which tax applies to you?</b> A simple map</li>
+    <li><b>Setting up M-Pesa for your business</b></li>
+    <li><b>The 10-minute daily routine</b>, using your tracker</li>
+    <li><b>Weekly and month-end checklists</b></li>
+    <li><b>10 common mistakes</b> and how to avoid them</li>
+    <li><b>Word list</b>: English / Kiswahili</li>
+  </ol>
+  <div class="box tip">
+    <b>Your kit has two parts:</b><br>
+    1. <b>This guide</b>: read it once, then keep the checklists handy.<br>
+    2. <b>Biashara-Records-Kit-Tracker.xlsx</b>: your daily record book. It works in Excel, or in Google Sheets on your phone
+    (sheets.google.com → File → Import).
+  </div>
+</section>
+
+<section class="page">
+  <h2>1. Why records matter now</h2>
+  <p>Many small businesses in Kenya still keep records in a notebook, or not at all. Sales come in through M-Pesa,
+  cash, WhatsApp orders and credit to regular customers, and by month end nobody knows the real profit.</p>
+  <p>From <b>1 January 2026</b>, KRA has said it will check the income and expenses people declare in their tax
+  returns against electronic data, including <b>eTIMS invoices</b>, withholding tax records and customs records.
+  In practice:</p>
+  <ul>
+    <li>A business <b>expense without a valid eTIMS invoice may not be accepted</b> as a cost when KRA works out your income tax.
+      If the cost is rejected, your taxable profit goes up.</li>
+    <li>Your <b>sales</b> may be compared with other data, such as what your customers claim as purchases from you.</li>
+    <li>Good records protect you if KRA asks questions. They also show you which products actually make money.</li>
+  </ul>
+  <div class="box warn"><b>The key habit:</b> for every business purchase, ask for an <b>eTIMS invoice with your KRA PIN</b>
+  on it. The tracker turns an expense red if you don't have one.</div>
+  <h3>Records also help you grow</h3>
+  <ul>
+    <li>Know your true profit, not just the money in your M-Pesa.</li>
+    <li>See which customers owe you, and follow up.</li>
+    <li>Show clean records when you apply for a loan, a tender or a supplier credit line.</li>
+  </ul>
+</section>
+
+<section class="page">
+  <h2>2. eTIMS in plain language</h2>
+  <p><b>eTIMS</b> (electronic Tax Invoice Management System) is KRA's system for creating tax invoices electronically.
+  Each eTIMS invoice is recorded by KRA, so both you and your customer have proof of the transaction.</p>
+  <table>
+    <tr><th>Question</th><th>Simple answer</th></tr>
+    <tr><td>Who is it for?</td><td>KRA says eTIMS applies to people carrying on business, whether or not they are registered for VAT.
+      There is a simpler version, <b>eTIMS Lite</b>, made for small and micro businesses that are <b>not</b> VAT registered.</td></tr>
+    <tr><td>Does it cost money?</td><td>KRA's own eTIMS options (eCitizen web, *222# USSD and the eTIMS app) are free to use.
+      Paid software that connects to eTIMS is optional.</td></tr>
+    <tr><td>Do I issue one for every sale?</td><td>eTIMS invoices are meant for your business sales. Customers who are businesses
+      will ask for them, because they need them to claim the cost. Confirm with KRA whether you must issue one for every small cash sale.</td></tr>
+    <tr><td>What if my supplier is very small?</td><td>KRA rules allow a buyer to issue a tax invoice on behalf of certain small suppliers (a "reverse invoice").
+      Ask KRA or a tax professional whether this applies to you.</td></tr>
+  </table>
+  <div class="box note small">Rules and thresholds are reported differently by different sources. When in doubt, the official KRA
+  eTIMS page (kra.go.ke → eTIMS) is the final word.</div>
+</section>
+
+<section class="page">
+  <h2>3. Getting onto eTIMS: three free options</h2>
+  <p>Before you start, have your <b>KRA PIN</b>, your <b>iTax password</b> (or eCitizen account) and the
+  <b>phone number linked to your KRA PIN</b>.</p>
+  <table>
+    <tr><th>Option</th><th>Best for</th><th>How to start</th></tr>
+    <tr><td><b>eTIMS Lite: web</b> (through eCitizen)</td><td>Using a smartphone browser or computer</td>
+      <td>Go to the KRA eTIMS page on kra.go.ke, choose the eTIMS Lite / eCitizen option, sign in and follow the onboarding steps.</td></tr>
+    <tr><td><b>eTIMS Lite: USSD *222#</b></td><td>Any phone, no internet. For individuals and sole proprietors.</td>
+      <td>Dial <b>*222#</b> from the SIM linked to your KRA PIN and follow the menu prompts to register and create invoices.</td></tr>
+    <tr><td><b>eTIMS app</b> (for non-VAT businesses)</td><td>Smartphone users who issue many invoices</td>
+      <td>Download KRA's official eTIMS app for non-VAT taxpayers from the Play Store and sign in with your KRA details.</td></tr>
+  </table>
+  <div class="box tip"><b>Tip:</b> Menus on *222# and the app can change, so read each screen carefully rather than memorising numbers.
+  If you get stuck, visit a Huduma Centre or KRA service desk, or call the KRA contact centre listed on kra.go.ke.</div>
+  <div class="box warn"><b>Watch out for scams.</b> KRA does not ask for your password or PIN by SMS or WhatsApp.
+  Only use official KRA channels and apps.</div>
+  <h3>After you are onboarded</h3>
+  <ol>
+    <li>Add the <b>items or services</b> you sell (name, price) so invoicing is quick.</li>
+    <li>Make one <b>test invoice</b> for a small sale so you learn the steps.</li>
+    <li>Write the eTIMS invoice number in column L of the <b>Sales</b> sheet in your tracker.</li>
+  </ol>
+</section>
+
+<section class="page">
+  <h2>4. Issuing an eTIMS invoice: step by step</h2>
+  <ol>
+    <li><b>Get the customer's details.</b> For a business customer, ask for their <b>KRA PIN</b> and name.
+      <span class="sw">"Naomba KRA PIN yako ili nikutumie invoice ya eTIMS."</span></li>
+    <li><b>Open eTIMS</b> (web, *222# or app) and choose to create a sales invoice.</li>
+    <li><b>Enter the customer's PIN</b>, the item(s), quantity and price.</li>
+    <li><b>Check, then confirm.</b> eTIMS creates the invoice and gives it a number.</li>
+    <li><b>Send it to the customer</b>: SMS, WhatsApp, email or print, depending on the channel you used.</li>
+    <li><b>Record it</b> in your tracker: Sales sheet → "eTIMS invoice issued?" = Yes, and type the invoice number.</li>
+  </ol>
+  <h3>Good practice</h3>
+  <ul>
+    <li>Make the invoice <b>at the time of the sale</b>, not at month end.</li>
+    <li>Make sure the <b>amount matches</b> what the customer paid on M-Pesa.</li>
+    <li>If you make a mistake, use the eTIMS option to correct it (a credit note). Don't just ignore it.</li>
+  </ul>
+</section>
+
+<section class="page">
+  <h2>5. Getting eTIMS invoices from your suppliers</h2>
+  <p>This is the habit that most directly protects you. Every business purchase without an eTIMS invoice is
+  at risk of being rejected as a cost.</p>
+  <h3>What to say: copy and send</h3>
+  <table>
+    <tr><th>English</th><th>Kiswahili</th></tr>
+    <tr><td>"Hello, please send me an eTIMS invoice for today's purchase. My KRA PIN is ______. Thank you."</td>
+        <td class="sw">"Habari, tafadhali nitumie invoice ya eTIMS ya mzigo wa leo. KRA PIN yangu ni ______. Asante."</td></tr>
+    <tr><td>"I can only pay against an eTIMS invoice. Can you generate it now?"</td>
+        <td class="sw">"Nitalipa nikipata invoice ya eTIMS. Unaweza kuitengeneza sasa?"</td></tr>
+    <tr><td>"You can do it for free on *222# or the KRA eTIMS app."</td>
+        <td class="sw">"Unaweza kuitengeneza bure kupitia *222# au app ya KRA eTIMS."</td></tr>
+  </table>
+  <h3>Make it automatic</h3>
+  <ul>
+    <li>Save your KRA PIN as a note on your phone so you can paste it quickly.</li>
+    <li>Prefer suppliers who issue eTIMS invoices without being asked. Over time, move your regular buying to them.</li>
+    <li>In the tracker, the <b>Expenses</b> sheet turns a row red when "eTIMS invoice received?" is not "Yes". Clear the red rows every week.</li>
+    <li>Ask a tax professional how to handle costs where an eTIMS invoice may not apply (for example some
+      wages, bank charges or exempt items). Mark those as "Not needed" only once you are sure.</li>
+  </ul>
+</section>
+
+<section class="page">
+  <h2>6. Which tax applies to you? A simple map</h2>
+  <p>This map gives you the right questions to ask. It is <b>not</b> a ruling on your situation.</p>
+  <table>
+    <tr><th>Your situation (commonly reported)</th><th>Tax to ask KRA about</th></tr>
+    <tr><td>Resident small business, yearly sales roughly between <b>KSh 1 million and 25 million</b></td>
+        <td><b>Turnover Tax (TOT)</b>: a percentage of gross sales. It has been reported as <b>1.5%</b>; confirm the current rate and how often you must pay.</td></tr>
+    <tr><td>Taxable sales of <b>KSh 5 million or more</b> in any 12 months</td>
+        <td><b>VAT registration</b> is required. A VAT-registered business cannot use Turnover Tax.</td></tr>
+    <tr><td>Yearly sales below about KSh 1 million, or you choose not to use TOT</td>
+        <td><b>Income tax</b> on your profit, declared in your annual return. Here, eTIMS-backed expenses matter most.</td></tr>
+  </table>
+  <div class="box note">In your tracker, set <b>Settings → Tax regime</b> and <b>Estimated tax rate</b>. The
+  <b>Monthly Summary</b> then shows a rough estimate so you can <b>save the money in advance</b>. It is only an estimate:
+  KRA's systems (iTax / eCitizen) calculate what you actually owe.</div>
+  <h3>Simple money rule</h3>
+  <p>Every time money comes in, put a small percentage aside in a separate M-Pesa savings wallet or bank account for tax.
+  Then tax day isn't a shock.</p>
+</section>
+
+<section class="page">
+  <h2>7. Setting up M-Pesa for your business</h2>
+  <table>
+    <tr><th>Option</th><th>Good for</th><th>Notes</th></tr>
+    <tr><td><b>Pochi la Biashara</b></td><td>Very small sellers and hawkers</td><td>Uses your personal line but keeps business money in a separate wallet.</td></tr>
+    <tr><td><b>Buy Goods Till</b></td><td>Shops, kiosks, salons, food vendors</td><td>Customers pay to a till number. Easy to see daily sales.</td></tr>
+    <tr><td><b>Paybill</b></td><td>Businesses that need an account number per customer (schools, landlords, suppliers)</td><td>Each payment carries an account reference, which helps you track who paid.</td></tr>
+  </table>
+  <p class="small">Check current tariffs and requirements with Safaricom before choosing.</p>
+  <h3>Golden rules</h3>
+  <ul>
+    <li><b>Separate business and personal money.</b> Personal transactions mixed in make your records useless.</li>
+    <li>Pay yourself a fixed amount and record it as <b>Owner Drawings</b> in the tracker. The sheet leaves drawings out of business costs.</li>
+    <li>Always record the <b>M-Pesa transaction code</b> (e.g. SKL4ABC123). It is your proof of payment.</li>
+    <li>Download your <b>M-Pesa statement</b> every week (in the M-Pesa app, or by requesting it through the M-Pesa menu or the Safaricom app)
+      and paste it into the tracker's <b>M-Pesa Check</b> sheet.</li>
+  </ul>
+</section>
+
+<section class="page">
+  <h2>8. The 10-minute daily routine</h2>
+  <p>Do this at closing time, every day. <span class="sw">Kila siku, kabla ya kufunga.</span></p>
+  <table>
+    <tr><th>Min</th><th>Do this</th><th>Tracker sheet</th></tr>
+    <tr><td>0–4</td><td>Record each sale: item, amount, payment method, M-Pesa code</td><td>Sales</td></tr>
+    <tr><td>4–7</td><td>Record each payment you made, and whether you got an eTIMS invoice</td><td>Expenses</td></tr>
+    <tr><td>7–8</td><td>Record any credit given or money received from people who owe you</td><td>Debtors</td></tr>
+    <tr><td>8–9</td><td>Count your cash and compare it with the cash sales total</td><td>Sales</td></tr>
+    <tr><td>9–10</td><td>Send one eTIMS request to any supplier still marked red</td><td>Expenses</td></tr>
+  </table>
+  <div class="box tip"><b>On your phone:</b> import the tracker into Google Sheets and pin it to your home screen.
+  Then recording a sale takes 20 seconds.</div>
+  <h3>Daily checklist</h3>
+  <ul class="check">
+    <li>All sales recorded with payment method</li>
+    <li>All M-Pesa codes typed</li>
+    <li>All expenses recorded with eTIMS status</li>
+    <li>Credit sales added to Debtors</li>
+    <li>Cash counted and matches</li>
+  </ul>
+</section>
+
+<section class="page">
+  <h2>9. Weekly and month-end checklists</h2>
+  <h3>Every week (15 minutes)</h3>
+  <ul class="check">
+    <li>Download the M-Pesa statement and paste it into <b>M-Pesa Check</b>. Fix every orange "MISSING" row.</li>
+    <li>Go through red rows in <b>Expenses</b> and follow up with suppliers for eTIMS invoices.</li>
+    <li>Send polite reminders to <b>OVERDUE</b> debtors and record the date in "Last reminder sent".</li>
+    <li>Back up the file (download a copy or keep it in Google Drive).</li>
+  </ul>
+  <h3>Every month end (30 minutes)</h3>
+  <ul class="check">
+    <li>Open <b>Monthly Summary</b> and look at sales, expenses and profit.</li>
+    <li>Check <b>% of expenses covered by eTIMS</b>. Aim for as close to 100% as possible.</li>
+    <li>Move the estimated tax amount into your tax savings.</li>
+    <li>File and pay any returns due on iTax / eCitizen by KRA's deadline. Confirm the dates on kra.go.ke.</li>
+    <li>Note your best-selling items and the costs you can cut next month.</li>
+  </ul>
+  <h3>Debtor reminder (copy and send)</h3>
+  <p class="sw">"Habari [jina], natumai uko salama. Nakukumbusha kuhusu salio la KSh [kiasi] la [tarehe].
+  Unaweza kulipa kupitia Till/Paybill [namba]. Asante sana!"</p>
+  <p>"Hi [name], hope you're well. A friendly reminder about the balance of KSh [amount] from [date].
+  You can pay via Till/Paybill [number]. Thank you!"</p>
+</section>
+
+<section class="page">
+  <h2>10. Ten common mistakes</h2>
+  <ol>
+    <li><b>Mixing personal and business M-Pesa.</b> Use a Till, Paybill or Pochi for the business.</li>
+    <li><b>Not asking suppliers for eTIMS invoices.</b> Costs may be rejected and you pay more tax.</li>
+    <li><b>Recording only M-Pesa sales.</b> Cash sales count too.</li>
+    <li><b>Forgetting credit sales.</b> If it isn't written down, it often never gets collected.</li>
+    <li><b>Waiting until month end to record.</b> You will forget things. Do it daily.</li>
+    <li><b>Counting all money received as profit.</b> Profit = sales − costs. Check the Monthly Summary.</li>
+    <li><b>Spending the tax money.</b> Set it aside as you earn.</li>
+    <li><b>Sharing your KRA password.</b> Never send it to anyone by SMS or WhatsApp.</li>
+    <li><b>Relying on social media "tax tips".</b> Check with KRA or a professional.</li>
+    <li><b>Not keeping a backup.</b> Phones get lost. Keep the tracker in Google Drive.</li>
+  </ol>
+</section>
+
+<section class="page">
+  <h2>11. Word list: English / Kiswahili</h2>
+  <table>
+    <tr><th>English</th><th>Kiswahili</th><th>Meaning</th></tr>
+    <tr><td>Sales</td><td class="sw">Mauzo</td><td>Money from selling goods or services</td></tr>
+    <tr><td>Expenses / costs</td><td class="sw">Matumizi / Gharama</td><td>Money spent to run the business</td></tr>
+    <tr><td>Profit</td><td class="sw">Faida</td><td>Sales minus expenses</td></tr>
+    <tr><td>Loss</td><td class="sw">Hasara</td><td>When expenses are more than sales</td></tr>
+    <tr><td>Stock</td><td class="sw">Mzigo / Bidhaa</td><td>Goods you buy to sell</td></tr>
+    <tr><td>Debtor</td><td class="sw">Mdaiwa</td><td>A customer who owes you money</td></tr>
+    <tr><td>Credit sale</td><td class="sw">Mkopo / Kukopesha</td><td>Selling now, payment later</td></tr>
+    <tr><td>Invoice</td><td class="sw">Ankara / Invoice</td><td>A bill showing what was sold and the price</td></tr>
+    <tr><td>Receipt</td><td class="sw">Risiti</td><td>Proof that payment was received</td></tr>
+    <tr><td>Tax</td><td class="sw">Kodi / Ushuru</td><td>Money paid to the government</td></tr>
+    <tr><td>Record keeping</td><td class="sw">Utunzaji wa rekodi</td><td>Writing down every transaction</td></tr>
+  </table>
+  <div class="box tip" style="margin-top:24px"><b>Need help setting up?</b> Contact the seller of this kit for the
+  done-for-you setup service: we fill in your Settings, load your items and show you the daily routine.</div>
+  <p class="small" style="margin-top:24px">© 2026 Biashara Records Kit. For your own business use. Please do not resell or share the files.
+  General information only, not tax or legal advice. Not affiliated with KRA or Safaricom PLC.</p>
+</section>
+
+</body>
+</html>
