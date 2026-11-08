@@ -111,7 +111,7 @@ const text = (page, sel) => page.locator(sel).innerText();
   await page.goto(URL + '#/');
   const home = await text(page, '.stats');
   assert.match(home, /KSh 6,460/); assert.match(home, /KSh 20,500/); assert.match(home, /-KSh 14,040/);
-  assert.match(await text(page, '.big.debt'), /1❗/);
+  assert.strictEqual((await text(page, '.big.debt .count')).trim(), '1');
   await shot(page, 'home-data');
 
   // 8. Debts: XSS rendered as text, overdue, partial payment, reminder
